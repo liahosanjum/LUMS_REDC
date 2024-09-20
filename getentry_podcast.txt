@@ -1,0 +1,53 @@
+ function getEntries($_start=0,$formvars) {
+
+		if(isset($formvars['sortcolumn']) && isset($formvars['sortdirection']))
+		{
+			$this->sortcolumn=$formvars['sortcolumn'];
+			$this->sortdirection=$formvars['sortdirection'];
+		}else if(isset($_GET['sc']) && isset($_GET['sd']))
+		{
+			$this->sortcolumn=$_GET['sc'];
+			$this->sortdirection=$_GET['sd'];
+		}
+		/// Paging for data tables       
+		$paging = new Paginate();
+		$paging->num= $this->numrows("select podcastid  from ".$this->tablename);
+		$paging->start=$_start;
+		$paging->sortcolumn=$this->sortcolumn;
+		$paging->sortdirection=$this->sortdirection;
+		$paging->limit = PAGESIZE;
+		$paging->Paginate($paging->limit,$paging->num,"?",20);
+		$this->tpl->assign('paging',$paging->displayTable());
+		
+		  if(isset($formvars['podcastid']) &&  $formvars['podcastid'] == '4')
+		  {
+		  
+		  $orderby=" order by  c.". $this->sortcolumn ." ". $this->sortdirection;
+		
+		//$_query = "select * from " . $this->tablename. $where . $orderby ."  Limit $paging->start,$paging->limit";
+		
+		 $_query = "select * from ".$this->tablename." as c , ".$this->oeptblname." as p where c.oepid = p.oepid". $orderby ."  Limit $paging->start,$paging->limit";
+		
+		$fetch=$this->select($_query);
+		   /*echo "<pre>";
+		   	print_r($fetch);
+		   echo "</pre>";*/
+		    }
+		  
+		///Sort order
+		else {
+		
+		$_query = "select * from ".$this->tablename." where podcastid = 4 ".$orderby."Limit $paging->start,$paging->limit";
+		  $fetch=$this->select($_query);
+		}
+		if($fetch!=false)
+		 {
+			$data=$fetch;
+		 }
+		else
+		  {
+		   $this->error="No existing Podcast found.";
+		   $data=null;
+		  }
+	    return $data;   
+    }

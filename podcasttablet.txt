@@ -1,0 +1,24 @@
+CREATE TABLE `redc_oeppodcast` (
+  `podcastid` int(11) NOT NULL auto_increment,
+  `title` varchar(150) NOT NULL,
+  `oepid` int(50) NOT NULL,
+  `pvideo` varchar(250) NOT NULL,
+  `enabled` enum('Y','N') NOT NULL,
+  PRIMARY KEY  (`podcastid`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+
+-- 
+-- Dumping data for table `redc_oeppodcast`
+-- 
+
+INSERT INTO `redc_oeppodcast` VALUES (1, 'Pakitan', 34, '1245932021-', 'N');
+INSERT INTO `redc_oeppodcast` VALUES (2, 'Peshawer', 15, '1245936204-', 'N');
+INSERT INTO `redc_oeppodcast` VALUES (4, 'Home Page', 0, '', 'Y');
+
+
+Facilityes 
+specific Programes
+Confference Services
+Admissions
+Enrollment 
+OFp Programme

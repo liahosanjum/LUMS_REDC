@@ -1,0 +1,13 @@
+
+XPM2 ChangeLog
+===============
+
+Version 0.3
+Apr-22-2007
+
+- Fix "To", "Cc" and "Bcc" header value
+
+Version 0.2
+Oct-14-2006
+
+- Added charset and encoding (quoted-printable or base64) optional properties for mail header

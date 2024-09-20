@@ -1,0 +1,210 @@
+/*
+ * SimpleModal ofp Form
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2009 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: ofp.css 185 2009-02-09 21:51:12Z emartin24 $
+ *
+ */
+
+
+/* Overlay */
+#ofp-overlay {background-color:#000; cursor:default;}
+
+/* Container */
+#ofp-container {font-family:'Trebuchet MS', Verdana, Arial; font-size:16px; text-align:left;}
+#ofp-container .ofp-content {color:#000000; }
+#ofp-container .ofp-content2 {display:none; height:350px;overflow-y:scroll; width:674px; color:#000000 !important;}
+#ofp-container h1 {color:#d76300; margin:0; padding:0 0 6px 12px; font-size:1.2em; text-align:left;}
+#ofp-container .ofp-loading {background:url(../images/contact/loading.gif) no-repeat; z-index:2000; height:55px; width:54px; margin:150px 90px 0 270px; padding:190px 190px 0 0;}
+#ofp-container .ofp-message {text-align:center; }
+#ofp-container .ofp-error {width:614px; font-size:11px; color:#FF0000; font-weight:bold; text-align:left; padding-top:10px; padding-bottom:0px;float:left;}
+#ofp-container .ofp-complete {width:614px; font-size:11px; color:#000000; font-weight:bold;text-align:left; padding-top:10px; padding-bottom:0px;}
+#ofp-container br {clear:both;}
+#ofp-container form {padding:0; margin:0;}
+#ofp-container label {clear:left; display:block; width:160px; float:left; text-align:right; padding-right:4px; font-weight:bold;}
+#ofp-container label_h {clear:left; display:block; width:160px; float:left; text-align:left; padding-right:4px; font-weight:bold;}
+#ofp-container .ofp-input {font-family:'Trebuchet MS', Verdana, Arial; float:left; padding:2px; margin:2px; background:#eee; border:1px solid #fff; width:300px;}
+#ofp-container textarea {height:105px; font-size:.9em;}
+#ofp-container .ofp-cc {font-size:.9em; cursor:default;}
+#ofp-container .ofp-top {}
+#ofp-container .ofp-bottom {}
+#ofp-container .ofp-bottom a,
+#ofp-container .ofp-bottom a:link,
+#ofp-container .ofp-bottom a:active,
+#ofp-container .ofp-bottom a:visited {position:relative; top:-4px; text-decoration:none; color:#666;}
+#ofp-container .ofp-bottom a:hover {color:#888;}
+#ofp-container .ofp-button {display:none;margin:4px 0 0 4px; cursor:pointer; height:20px; border:0; font-size:1em; font-weight:bold; color:#fff; text-align:center; vertical-align:middle;}
+#ofp-container .ofp-send {}
+#ofp-container .ofp-cancel {}
+#ofp-container a.modalCloseX,
+#ofp-container a.modalCloseX:link,
+#ofp-container a.modalCloseX:active,
+#ofp-container a.modalCloseX:visited {text-decoration:none; font-weight:bold; font-size:1.2em; color:#000; float:right; padding-right:10px;}
+#ofp-container a.modalCloseX:hover {color:#9bb3b3;}
+
+
+.clear {
+		clear:both;
+	}
+a img {
+		border:none;
+	}
+.ofp-wraper {
+	width:778px;
+	padding-left:70px;
+	height:650px;
+	margin:0px auto;
+	background-color:#FFF;
+	border:#4e7690 solid 1px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	float:left;
+}
+.ofp-forms {
+		float:left;
+		padding:0px;
+		margin:0px;
+		padding-left:43px;
+		padding-top:10px;
+}
+.ofp-info {
+	width:600px; font-size:11px; color:#000000;padding-bottom:10px
+}
+.ofp-forms .ofp-forminputs{
+		float:left;
+		padding:0px;
+		margin:0px;
+		padding-top:20px;
+	
+	
+}
+.ofp-forms h2{
+		padding:0px 20px 5px 0px;
+		margin:0px;
+		font-size:30px;
+		font-weight:normal;
+		width:598px;
+		color:#3f3f3f;
+		border-bottom:#d3d3d3 solid 2px;
+}
+
+.ofp-forms p{
+		padding:30px 0px 10px 0px;
+		margin:0px;
+		font-size:13px;
+		font-weight:normal;
+
+}
+.ofp-forms ul {
+		padding:2px 0px;
+		margin:0px;
+		list-style:none;
+		clear:both;
+	}
+.ofp-forms ul li{
+		padding:0px;
+		margin:0px;
+		float:left;
+	}
+.ofp-forms ul li.txt{
+		padding:0px;
+		margin:0px;
+		width:337px !important;
+		font-size:11px;
+		padding-left:10px;
+		height:18px;
+		padding-top:5px;
+		background:url(../images/bullet.gif) left no-repeat;
+		font-weight:bolder;
+	}
+	.ofp-forms ul li.txt_t{
+		padding:0px;
+		margin:0px;
+		width:260px !important;
+		font-size:11px;
+		padding-left:10px;
+		height:18px;
+		padding-top:10px !important;
+		background:url(../images/bullet.gif) left no-repeat;
+		font-weight:bolder;
+	}
+.ofp-forms ul li input.bluebar{
+		padding:0px 5px;
+		margin:0px;
+		padding-top:3px;
+		width:280px;
+		height:20px;
+		background-color:#aed0d9;
+		border:none;
+	}
+.ofp-forms ul li select.bluebar{
+		padding:0px;
+		margin:0px;
+		width:290px;
+		height:23px;
+		background-color:transparent;
+		background-color:#aed0d9;
+		border:none;
+		font-size:13px;
+	}
+.next {
+		padding:3px 0px 4px 10px;
+		font-size:12px;
+		float:left;
+		margin-top:14px;
+		background-color:#8bb2bb;
+		text-decoration:none;
+		color:#FFF;
+		font-weight:bold;
+		border-bottom:#5d8a95 solid 1px;
+		border-left:#a4c2c9 solid 1px;
+		border-right:#6e99a3 solid 1px;
+		border-top:#bcd3d8 solid 1px;
+		}
+a.next {
+		padding:3px 0px 4px 10px;
+		margin-left:121px;
+		font-size:12px;
+		float:left;
+		margin-top:14px;
+		background-color:#8bb2bb;
+		text-decoration:none;
+		color:#FFF;
+		font-weight:bold;
+		border-bottom:#5d8a95 solid 1px;
+		border-left:#a4c2c9 solid 1px;
+		border-right:#6e99a3 solid 1px;
+		border-top:#bcd3d8 solid 1px;
+		}
+a.next:hover {
+		background:url(../images/a_bg.gif) repeat-x;
+}
+a.next_listing {
+		padding:3px 0px 4px 10px;
+		margin-left:0px;
+		font-size:12px;
+		float:left;
+		margin-top:16px;
+		background-color:#8bb2bb;
+		text-decoration:none;
+		color:#FFF;
+		font-weight:bold;
+		border-bottom:#5d8a95 solid 1px;
+		border-left:#a4c2c9 solid 1px;
+		border-right:#6e99a3 solid 1px;
+		border-top:#bcd3d8 solid 1px;
+		}
+a.next:hover {
+		background:url(../images/a_bg.gif) repeat-x;
+}
+
+img.bottomline {
+		padding-left:41px;
+		padding-top:22px;
+	}

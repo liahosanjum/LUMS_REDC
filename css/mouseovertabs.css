@@ -1,0 +1,128 @@
+/* ######### CSS for top level tabs ######### */
+
+.tabsmenuclass ul{
+overflow: hidden;
+width: auto;
+margin: 0;
+padding: 0;
+margin-left:-13px;
+list-style-type: none;
+}
+
+.tabsmenuclass li{
+float: left;
+height:15px !important;
+padding: 0px 13px 0px 13px;
+}
+
+.mouseover{
+display: block;
+font-family:verdana;
+font-size:11px;
+font-weight:bold;
+text-transform:uppercase;
+color: #adb7bd !important;
+margin-right: 1px;
+text-decoration: none;
+}
+
+
+.tabsmenuclass a.inactive{
+display: block;
+font-family:verdana;
+font-size:11px;
+font-weight:bold;
+text-transform:uppercase;
+color: #5c6f7c;
+margin-right: 1px;
+text-decoration: none;
+}
+
+.tabsmenuclass a.inactive:hover{
+
+color: #adb7bd !important;
+font-weight:bold !important;
+}
+
+a.home{
+
+padding-left: 0px;
+}
+.tabsmenuclass a.active{
+
+color: #f48a2c;
+display: block;
+font-family:Tahoma;
+font-size:11px;
+font-weight:bold;
+text-transform:uppercase;
+margin-right: 1px;
+text-decoration: none;
+}
+.tabsmenuclass a.active:hover{
+
+color: #f48a2c;
+}
+
+/*
+.tabsmenucontentclass li a.selected_gray:hover{
+
+color: #adb7bd !important;
+font-weight:normal !important;
+
+}
+*/
+/* ######### CSS for sub menu container below ######### */
+
+.tabsmenucontentclass{
+clear: left;
+width: 951px;
+margin:0px auto;
+padding-top:5px;
+
+}
+
+.tabsmenucontentclass ul{
+margin:0px;
+padding: 0;
+list-style-type: none;
+float:left;
+}
+
+.tabsmenucontentclass li{
+float: left;
+margin-right: 1em;
+
+}
+
+.tabsmenucontentclass li a{
+display: block;
+padding: 0px 4px 0px 4px;
+font-family:Tahoma;
+font-size:11px;
+font-weight:bold;
+text-transform:uppercase;
+color: #adb7bd;
+margin-right: 1px;
+text-decoration: none;
+}
+
+.tabsmenucontentclass li a:hover{
+color: #f48a2c;
+font-weight:bold;
+}
+
+.tabsmenucontentclass li a.last{
+padding-left:0px;
+}
+.tabsmenucontentclass li a.first{
+padding-left:0px;
+}
+/*
+.tabsmenucontentclass li a:hover{
+	color:#f79e4d;
+}
+*/
+
+.tabsmenucontentclass a.bordertest {
+		border-bottom:#d3d3d3 solid 1px !important;}

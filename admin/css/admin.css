@@ -1,0 +1,464 @@
+body {
+	margin-left: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+}
+
+/*  Area To Chanmge In Case Of Site Chnage */
+.siteName {
+	background-image:url(../images/log_top_2.jpg);
+	background-repeat:repeat-x;
+	font-family:"Trebuchet MS";
+	font-size:22px;
+	color:#F6F6F6;
+	height:45px;
+}
+.colourBar {
+	background-color:#048DB1;
+	height:9px;
+}
+.pageTitle {
+	font-family:"Trebuchet MS";
+	font-size:22px;
+	color:#048DB1;
+}
+.pageTitle1 {
+	font-family:"Trebuchet MS";
+	font-size:14px;
+	color:#048DB1;
+}
+.adminLogin {
+	font-family:"Trebuchet MS";
+	font-size:22px;
+	color:#048DB1;
+}
+
+/*  - - - - - - - - - - - - - - - - - - - - - */
+
+
+/*  Grid CSS Starts */
+
+.grid {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666666;
+}
+.grid .th {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#048DB1;
+}
+
+
+.grid .row1 {
+	background-color:#FFFFFF;
+}
+.grid .row2 {
+	background-color:#F9F9F9;
+}
+
+/*  Grid CSS Ends */
+
+
+.boder {
+	border-left:1px solid #D5D5D5;
+	border-right:1px solid #D5D5D5;
+}
+.boderBtm {
+	border-bottom:1px solid #D5D5D5;
+	background-color:#F0F0F0;
+}
+.boderInner {
+	border:1px solid #D5D5D5;
+	background-color:#F9F9F9;
+}
+.boderInner1 {
+	border:1px solid #CDCDCD;
+	background-color:#FBFBFB;
+}
+.boderInner2 {
+	border:1px solid #CDCDCD;
+	background-color:#FFFFFF;
+}
+.boderDashed {
+	border:1px dashed #CDCDCD;
+	background-color:#FFFFFF;
+}
+.borderBtmDashed {
+	border-bottom:1px dashed #CDCDCD;
+}
+.errorBar {
+	background-image:url(../images/icon_info.png);
+	background-position:left;
+	background-repeat:no-repeat;
+	padding-left:24px;
+	border:1px dashed #CDCDCD;
+	background-color:#FDFDBD;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333333;
+	text-decoration:none;
+	line-height:25px;
+}
+.topLinks {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#333333;
+	text-decoration:none;
+	line-height:25px;
+	display:block;
+	width:auto;
+}
+.topLinks:hover {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#333333;
+	text-decoration:none;
+	line-height:25px;
+	display:block;
+	width:auto;
+	background-color:#E4E4E4;
+}
+.topDevider {
+	background-image:url(../images/adm_menudev.jpg);
+	background-position:right;
+	background-repeat:no-repeat;
+}
+
+.normalTxt {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666666;
+	text-decoration:none;
+}
+.normalTxt p {
+	padding:0px;
+	margin:0px;
+}
+
+.th {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#048DB1;
+	text-decoration:none;
+}
+
+.required{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FF0000;
+	text-decoration:none;
+}
+
+.btmLine {
+	background-image:url(../images/log_btm_2.jpg);
+	background-repeat:repeat-x;
+	height:14px;
+}
+.key {
+	background-image:url(../images/log_key.jpg);
+	background-repeat:no-repeat;
+	height:245px;
+}
+.input {
+	height:16px;
+	width:170px;
+	background-color:#FFFFFF;
+	border:1px solid #C0C0C0;
+	padding:0px;
+	color:#666666;
+	font-size:11px;
+	font-family:verdana;
+	padding-left:2px;
+	padding-top:2px;
+}
+.input:focus {
+	border:1px solid #C0C0C0;
+}
+.select_class {
+	height:19px;
+	width:174px;
+	background-color:#FFFFFF;
+	border:1px solid #C0C0C0;
+	padding:0px;
+	color:#666666;
+	font-size:11px;
+	font-family:verdana;
+	padding-left:2px;
+}
+.select_class_large {
+	height:19px;
+	width:274px;
+	background-color:#FFFFFF;
+	border:1px solid #C0C0C0;
+	padding:0px;
+	color:#666666;
+	font-size:11px;
+	font-family:verdana;
+	padding-left:2px;
+}
+.input_large {
+	height:16px;
+	width:270px;
+	background-color:#FFFFFF;
+	border:1px solid #C0C0C0;
+	padding:0px;
+	color:#666666;
+	font-size:11px;
+	font-family:verdana;
+	padding-left:2px;
+	padding-top:2px;
+}
+.input_large:focus {
+	border:1px solid #C0C0C0;
+}
+.input1 {
+	height:14px;
+	width:120px;
+	background-color:#FFFFFF;
+	border:1px solid #C0C0C0;
+	padding:0px;
+	color:#666666;
+	font-size:11px;
+	font-family:verdana;
+	padding-left:2px;
+	padding-top:1px;
+}
+.input1:focus {
+	border:1px solid #C0C0C0;
+	background-color:#FFFFDD;	
+}
+.txtArea {
+	width:296px;
+	height:80px;
+	background-color:#FFFFFF;
+	border:1px solid #C0C0C0;
+	padding:0px;
+	color:#666666;
+	font-size:10px;
+	font-family:verdana;
+}
+.txtArea:focus {
+	border:1px solid #C0C0C0;
+	background-color:#FFFFDD;	
+}
+
+
+/*  Landing Page Main ICONS CSS Starts */
+
+#cpanel div.icon {
+	text-align: center;
+	margin-right: 5px;
+	float: left;
+	margin-bottom: 5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+}
+
+#cpanel div.icon a {
+	display: block;
+	float: left;
+	border: 1px solid #f0f0f0;
+	height: 97px;
+	width: 108px;
+	color: #666;
+	text-decoration: none;
+}
+
+#cpanel div.icon a:hover {
+	border-left: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background: #f9f9f9;
+	color: #0B55C4;
+}
+#cpanel div.icon_site {
+	text-align: center;
+	margin-right: 5px;
+	float: left;
+	margin-bottom: 5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+}
+
+#cpanel div.icon_site a {
+	display: block;
+	float: left;
+	border: 1px solid #f0f0f0;
+	height: 110px;
+	width: 108px;
+	color: #666;
+	text-decoration: none;
+}
+
+#cpanel div.icon_site a:hover {
+	border-left: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background: #f9f9f9;
+	color: #0B55C4;
+}
+
+#cpanel img  { padding: 10px 0; margin: 0 auto; }
+#cpanel span { display: block; text-align: center; }
+
+/* standard form style table */
+div.col50 { float: left; width: 50%; }
+div.col70 { float: left; width: 70%; }
+div.col30 { float: left; width: 30%; }
+div.col60 { float: left; width: 60%; }
+div.col40 { float: left; width: 40%; }
+
+/*  Landing Page Main ICONS CSS Ends */
+
+
+/* pane-sliders Starts */
+.pane-sliders .title {
+	margin: 0;
+	padding: 2px;
+	color: #666;
+	cursor: pointer;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+}
+
+.pane-sliders .panel   { border: 1px solid #ccc; margin-bottom: 3px;}
+.pane-sliders .panel   a{text-decoration:none;}
+.pane-sliders .panel h3 { background: #f6f6f6; color: #666}
+
+.pane-sliders .content { height: 0px; display: none; background: #f6f6f6;}
+
+.pane-sliders .adminlist     { border: 0 none; }
+.pane-sliders .adminlist td  { border: 0 none; }
+
+.moofx-toggler  span     { background: transparent url(../images/j_arrow.png) 5px 50% no-repeat; padding-left: 20px;}
+.moofx-toggler-down span { background-image: url(../images/j_arrow_down.png); }
+
+.moofx-toggler-down {  border-bottom: 1px solid #ccc; }
+/* pane-sliders Ends */
+
+
+/** toolbar Starts **/
+
+div.toolbar { 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666666;
+	text-decoration:none;
+	float: right; 
+	text-align: right; 
+	padding: 0; 
+}
+
+table.toolbar    			 { padding: 0; margin: 0;  }
+table.toolbar td 			 { padding: 1px 1px 1px 4px; text-align: center; color: #666; height: 48px; }
+table.toolbar td.spacer  { width: 10px; }
+table.toolbar td.divider { border-right: 1px solid #eee; width: 5px; }
+
+table.toolbar div { float: none; width: 32px; height: 32px; margin: 0 auto; }
+
+table.toolbar a {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666666;
+	text-decoration:none;
+    display: block; float: left;
+	white-space: nowrap;
+	border: 1px solid #fbfbfb;
+	padding: 1px 5px;
+	cursor: pointer;
+}
+
+table.toolbar a:hover {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666666;
+	border-left: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	text-decoration: none;
+	color: #0B55C4;
+}
+.apply {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666666;
+	text-decoration:none;
+    display: block; float: left;
+	white-space: nowrap;
+	border: 1px solid #fbfbfb;
+	padding: 1px 5px;
+	cursor: pointer;
+}
+
+.apply:hover {
+	padding-left:10px;
+}
+
+/** toolbar Starts Ends **/
+.link
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#048DB1;
+	text-decoration:none;
+}
+.link:hover 
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#048DB1;
+	text-decoration:underline;
+}
+.link_emp
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#048DB1;
+	text-decoration:none;
+}
+.link_emp:hover 
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#048DB1;
+	text-decoration:none;
+}
+
+#flashdiv object
+{
+	width: 231px;
+	height: 172px;
+}
+
+#flashdiv embed
+{
+	width: 231px;
+	height: 172px;
+}
+.errorTxt {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FF0000;
+	
+}
+.fieldtitle {
+	font-family:"Trebuchet MS";
+	font-size:11px;
+	color:#048DB1;
+}

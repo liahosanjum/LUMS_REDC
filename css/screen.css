@@ -1,0 +1,62 @@
+@charset "utf-8";
+/*
+ * CSS Document
+ * Written by Ryan Yonzon
+ * http://ryan.rawswift.com/
+ */
+ 
+html, body {
+	margin:0px; /* FF hack: or we'll have double scrollbar showing on the browser */
+	overflow:hidden; /* hide browser's main scrollbar */
+}
+
+#main_container {
+	width:100%;
+	height:100%;	/* this will make sure that the height will extend at the bottom */
+	overflow:auto;	 /* will have a scrollbar at our content containier */
+	position:absolute; /* container div must be absolute, for our fixed bar to work */
+	left: 0px;
+	top: 0px;
+}
+
+	#main_container .content_wrapper {
+		margin-left:auto;
+		margin-right:auto;
+		width:90%;
+	}
+	
+	#main_container .spacer { /* spacer w/ fixed height; give space to the content and fixed bar */
+		height:36px;
+	}
+
+#nav_menu_wrapper { /* this will ba used as a wrapper for the nav_menu so we can center it (nav_menu). especially for IE */
+	height:37px; /* fix bar's height */
+	width:100%;
+	background:url(../images/footer_bg.gif) repeat-x bottom;/* use 100% of width */
+	/* the code below will PUT the bar at the bottom */	
+	padding:0px;
+	bottom:0px;
+	position:absolute;
+	
+	/* hide scrollbar for this wrapper */
+	overflow:hidden;
+}
+
+	#nav_menu_wrapper .nav_menu { /* the menu itself */
+		height:36px; /* fix bar's height */
+		width:951px; /* fixed width */
+		padding:0px;
+		/* center this div */
+		margin:0px auto;
+		padding-right:17px;
+		/* add effect */
+	}
+	.nav_menu img{
+		padding:0px;
+		margin:0px;
+		
+	}
+	/*
+	 * menu links and link effects
+	 */
+	

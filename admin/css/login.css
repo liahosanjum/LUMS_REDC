@@ -1,0 +1,90 @@
+body {
+	margin-left: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+}
+
+/*  Area To Chanmge In Case Of Site Chnage */
+.siteName {
+	background-image:url(../images/log_top_2.jpg);
+	background-repeat:repeat-x;
+	font-family:"Trebuchet MS";
+	font-size:22px;
+	color:#F6F6F6;
+	height:45px;
+}
+.colourBar {
+	background-image:url(../images/log_top_4.jpg);
+	background-repeat:repeat-x;
+	height:9px;
+}
+.adminLogin {
+	font-family:"Trebuchet MS";
+	font-size:22px;
+	color:#048DB1;
+}
+/*  - - - - - - - - - - - - - - - - - - - - - */
+
+
+.boder {
+	border-left:1px solid #D5D5D5;
+	border-right:1px solid #D5D5D5;
+}
+.boderInner {
+	border:1px solid #D5D5D5;
+	background-color:#F9F9F9;
+}
+.normalTxt {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666666;
+}
+.errorTxt {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FF0000;
+	
+}
+.btmLine {
+	background-image:url(../images/log_btm_2.jpg);
+	background-repeat:repeat-x;
+	height:14px;
+}
+.key {
+	background-image:url(../images/log_key.jpg);
+	background-repeat:no-repeat;
+	height:245px;
+}
+.input {
+	height:14px;
+	line-height:14px;
+	width:120px;
+	background-color:#FFFFFF;
+	border:1px solid #C0C0C0;
+	padding:0px;
+	color:#666666;
+	font-size:11px;
+	font-family:verdana;
+	padding-left:2px;
+	padding-top:1px;
+}
+.input:focus {
+	border:1px solid #C0C0C0;
+	background-color:#FFFFDD;	
+}
+.input1 {
+	line-height:20px;
+	width:120px;
+	background-color:#FFFFFF;
+	border:1px solid #C0C0C0;
+	padding:0px;
+	color:#666666;
+	font-size:10px;
+	font-family:verdana;
+	padding-left:2px;
+}
+.input1:focus {
+	border:1px solid #C0C0C0;
+	background-color:#FFFFDD;	
+}

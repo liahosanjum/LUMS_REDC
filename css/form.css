@@ -1,0 +1,252 @@
+.clear {
+		clear:both;
+	}
+a img {
+		border:none;
+	}
+.wraper-apply {
+	width:848px;
+	padding:0px;
+	margin:0px auto;
+	color:#000000 !important;
+	border:#4e7690 solid 1px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	background:url(../images/applyonline/bg_grey.gif) repeat-y left #fff;
+	float:left;
+}
+
+.wraper_login {
+				
+	width:768px;
+	/*height:auto;*/
+	padding:0px;
+	margin:0px auto;
+	color:#000000 !important;
+	border:#4e7690 solid 1px;
+	font-family:Verdana,Geneva,sans-serif;
+	font-size:11px;
+	padding-bottom:50PX;
+	padding-left:80px;
+	float:left;
+	background-color:#FFFFFF;
+								
+}
+.applysteps {
+		width:144px;
+		float:left;		
+		padding-top:80px;
+		padding-left:0px;
+}
+.applysteps ul{
+		width:122px;
+		padding:0px;
+		margin:0px;
+		list-style:none;
+}
+.applysteps ul li{
+		padding:0px;
+		margin:0px;
+		width:118px;
+		padding-bottom:45px;
+		float:left;
+		padding-left:26px;
+}
+.applysteps ul li p{
+		padding:0px;
+		margin:0px;
+		float:left;
+		width:80px;
+		font-size:10px;
+		padding-top:4px;
+		color:#CCCCCC;
+}
+/*
+
+
+*/
+.sharpLink{
+		text-decoration:underline;
+		color:#000000;
+}
+.applysteps ul li p.sharp{
+	color:#000;
+}
+.applysteps ul li img{
+		float:right;
+
+}
+.forms-apply {
+		float:left;
+		padding:0px;
+		margin:0px;
+		width:500px;
+		padding-left:43px;
+		/*padding-top:10px;		*/
+}
+.forms_listing {
+		float:left;
+		padding:0px;
+		margin:0px;
+		padding-left:21px;
+		padding-top:10px;
+}
+.forms-apply .forminputs-apply{
+		float:left;
+		padding:0px;
+		margin:0px;
+		padding-top:30px;
+		width:620px;
+		
+}
+.forminputs-apply p.form_caption{
+		padding:0px;
+		margin:0px;
+		width:600px;
+}
+
+
+/* css for alumni pages*/
+.forminputs-alumni{
+		float:left;
+		padding:0px;
+		margin:0px;
+		
+		
+}
+/* end for alumni pages*/
+.errorTxt {color:#FF0000; font-size:11px; font-weight:bold; margin:0 auto; padding:0px;}
+
+
+.forms-apply h2{
+		border-bottom:2px solid #D3D3D3;
+color:#3F3F3F;
+font-size:30px;
+font-weight:normal;
+font-family:Verdana,Geneva,sans-serif !important;
+margin:0;
+padding:0 20px 20px 0;
+width:598px;
+}
+
+.forms-apply p{
+		padding:10px 0px 10px 0px;
+		margin:0px;
+		font-size:13px;
+		font-weight:normal;
+		color:#000000;
+}
+.forms-apply ul {
+		padding:2px 0px;
+		margin:0px;
+		float:left;
+		list-style:none;
+	}
+.forms-apply ul li{
+		padding:0px;
+		margin:0px;
+		float:left;
+	}
+.forms-apply ul li.txt{
+		padding:0px;
+		margin:0px;
+		width:260px;
+		font-size:11px;
+		padding-left:10px;
+		color:#000000;
+		padding-top:5px;
+		font-family:Verdana,Geneva,sans-serif !important;
+		height:18px !important;
+		background:url(../images/applyonline/bullet.gif) left no-repeat;
+		font-weight:bolder;
+	}
+.forms-apply ul li.txt1{
+		padding:0px;
+		margin:0px;
+		width:260px;
+		font-size:11px;
+		padding-left:10px;
+/*		border:#fff 1px solid;*/
+		color:#000000;
+		padding-top:5px;
+		font-weight:bolder;
+	}
+
+.forms-apply ul li input.bluebar{
+		padding:0px 5px;
+		margin:0px;
+		padding-top:3px;
+		width:200px;
+		height:20px;
+		background-color:#aed0d9;
+		border:none;
+	}
+.forms-apply ul li select.bluebar{
+		padding:0px;
+		margin:0px;
+		width:210px;
+		height:23px;
+		background-color:transparent;
+		background-color:#aed0d9;
+		border:none;
+		font-size:13px;
+	}
+.forms-apply ul li textarea.bluebar{
+		padding:0px 5px;
+		overflow-y:scroll;
+		margin:0px;
+		font-size:11px !important;
+		font-family:Verdana,Geneva,sans-serif!important;
+		padding-top:3px;
+		width:250px;
+		height:70px !important;
+		background-color:#aed0d9;
+		border:none;
+}
+.bluebar_date{
+		padding:0px;
+		margin:0px;
+		width:70px;
+		height:23px;
+		background-color:transparent;
+		background-color:#aed0d9;
+		border:none;
+	}
+.next-apply{
+		padding:0px 0px 0px 10px !important;
+		font-size:12px;
+		float:left;
+		margin-top:14px;
+		margin-right:3PX;
+		background-color:#FF9900;
+		text-decoration:none;
+		color:#FFF;
+		font-weight:bold;
+		border-bottom:#A3702E solid 1px;
+		border-left:#FFCB7C solid 1px;
+		border-right:#A3702E solid 1px;
+		border-top:#FFCB7C solid 1px;
+		cursor:pointer;
+		}
+
+.prev-apply{
+		padding:0px 10px 0px 0px !important;
+		font-size:12px;
+		float:left;
+		margin-top:14px;
+		margin-right:3PX;
+		background-color:#FF9900;
+		text-decoration:none;
+		color:#FFF;
+		font-weight:bold;
+		border-bottom:#A3702E solid 1px;
+		border-left:#FFCB7C solid 1px;
+		border-right:#A3702E solid 1px;
+		border-top:#FFCB7C solid 1px;
+		cursor:pointer;
+		}
+
+img.bottomline {
+		padding-left:185px;
+		padding-top:22px;
+	}

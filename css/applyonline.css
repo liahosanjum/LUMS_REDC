@@ -1,0 +1,56 @@
+/*
+ * SimpleModal apply Form
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2009 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: apply.css 185 2009-02-09 21:51:12Z emartin24 $
+ *
+ */
+
+
+/* Overlay */
+#apply-overlay {height:auto; background-color:#000; cursor: default;}
+
+/* Container */
+#apply-container {font-family:'Trebuchet MS', Verdana, Arial; width:840px; float:left;}
+#apply-container .apply-content {color:#ddd; height:auto; width:620px;}
+#apply-container .apply-content1 { color:#ddd; height:auto;}
+#apply-container .apply-content2 {height:350px; overflow-y:scroll; width:99%; color:#000000 !important;}
+#apply-container h1 {color:#d76300; margin:0; padding:0 0 6px 12px; font-size:1.2em; text-align:left; }
+#apply-container .apply-loading {position:absolute; background:url(../images/applyonline/loading.gif) no-repeat; z-index:8000; height:55px; width:54px; margin:-14px 0 0 170px; padding:0;}
+#apply-container .apply-message {text-align:left; height:20px;}
+#apply-container .apply-message1 {text-align:left;}
+#apply-container .apply-error {width:614px; font-size:11px; color:#FF0000; font-weight:bold; margin:0 auto; padding:2px;}
+#apply-container br {clear:both;}
+#apply-container form {padding:0; margin:0;}
+#apply-container label {clear:left; display:block; width:150px; float:left; text-align:right; padding-right:4px; font-weight:normal; font-size:12px;}
+#apply-container .apply-input {}
+#apply-container textarea {height:114px; font-size:.9em;}
+#apply-container .apply-cc {font-size:.9em; cursor:default;}
+#apply-container .apply-top {}
+#apply-container .apply-bottom {}
+#apply-container .apply-bottom a,
+#apply-container .apply-bottom a:link,
+#apply-container .apply-bottom a:active,
+#apply-container .apply-bottom a:visited {position:relative; top:-4px; text-decoration:none; color:#666;}
+#apply-container .apply-bottom a:hover {color:#888;}
+#apply-container .apply-button {}
+#apply-container .apply-send {width:50px; background:url(../images/applyonline/send.png) no-repeat;}
+#apply-container .apply-create {}
+#apply-container .apply-check {}
+#apply-container .apply-back {}
+#apply-container .apply-submit {width:65px; background:url(../images/applyonline/cancel.png) no-repeat;}
+#apply-container .apply-cancel {}
+#apply-container a.modalCloseX,
+#apply-container a.modalCloseX:link,
+#apply-container a.modalCloseX:active,
+#apply-container a.modalCloseX:visited { padding-top:2px; float:right; padding-right:2px;}
+#apply-container a.modalCloseX:hover {color:#9bb3b3;}
+#apply-container	.nextprev { padding-left:160px;}
+#apply-container	.apply-checklogin {}
+#apply-container	.apply-login { text-decoration:underline}
